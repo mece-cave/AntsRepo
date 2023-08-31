@@ -96,36 +96,33 @@ header {
 
 
 
-
 .container {
-    max-width: 915px;
-    margin-left: 480px;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
 
 .company-info,
 .facilities {
-    background-color: black;
+    background-color: #f5f5f5;
     padding: 20px;
-    margin-bottom: -50px;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 
 h2,
 h3 {
-    font-size: 30px;
     color: #333;
-    font-family: 'Arial', sans-serif;
-    font-style: italic;
-}
-
-p {
-    font-size: 18px;
     font-family: 'Arial', sans-serif;
     /* Örnek bir yazı tipi */
     font-style: italic;
     /* İtalik stili ekle */
+}
+
+p {
     color: #666;
+    font-family: 'Arial', sans-serif;
+    /* Örnek bir yazı tipi */
 }
 
 @keyframes slayt {
@@ -166,36 +163,7 @@ p {
 
 
 @media (max-width: 768px) {
-    .container {
-        max-width: 915px;
-        margin-left: 480px;
-        padding: 20px;
-    }
-
-    .company-info,
-    .facilities {
-        background-color: black;
-        padding: 20px;
-
-        border-radius: 5px;
-    }
-
-    h2,
-    h3 {
-        font-size: 30px;
-        color: #333;
-        font-family: 'Arial', sans-serif;
-        font-style: italic;
-    }
-
-    p {
-        font-size: 18px;
-        font-family: 'Arial', sans-serif;
-        /* Örnek bir yazı tipi */
-        font-style: italic;
-        /* İtalik stili ekle */
-        color: #666;
-    }
+    
 
     .nav-links {
         display: none;
